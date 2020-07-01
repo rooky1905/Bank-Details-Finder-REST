@@ -1,0 +1,19 @@
+<head>
+    <title>Home - built by Ritik</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+</head>
+<center>
+<div class="jumbotron">
+
+<h2>Hey Guys In order to go ahead and use this REST-API Service you need to do the following...</h2>
+<br>
+<div class="container" align = 'left'>
+    <h4><ol>1. Add data CSV file <a href="{%url 'add_data'%}"><button class="btn btn-primary">add_data</button></a></ol></h4>
+    <h4><ol>2. After adding the data, head over to http://127.0.0.1:8000/api/ifsc/[ifsc_code] and bank details will be displayed in json format </ol></h4>
+    <h4><ol>3. Then to see all banks in a city with the name; head over to http://127.0.0.1:8000/api/branches/[city]/[bank-name] and a list will be displayed in json format</ol></h4>
+    <br>
+    <small><ol>[] represents placeholder where the specified data needs to be put in by user</ol></small>
+</div>
+</div>
+</center>
