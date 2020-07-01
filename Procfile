@@ -1,1 +1,1 @@
-web: gunicorn restifsc.wsgi
+web: gunicorn banks.wsgi --log-file -
